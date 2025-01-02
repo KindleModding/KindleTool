@@ -2014,7 +2014,7 @@ int
 						Device dev_code = (Device) strtoul(optarg, &endptr, 16);
 						// Check that it even remotely looks like a device code, old or new, first...
 						// NOTE: The range is 01 to 0VF for now, update as needed!
-						if (*endptr != '\0' || dev_code <= 0x00 || dev_code > 0x3AF) {
+						if (*endptr != '\0' || dev_code <= 0x00) {
 							// That was either an out of range hexadecimal value,
 							// or not an hexadecimal value at all...
 							if (strcmp(convert_device_id(dev_code), "Unknown") == 0) {
@@ -2571,7 +2571,11 @@ int
 			fprintf(stderr, " %hu device%s:\n", info.num_devices, (info.num_devices > 1 ? "s" : ""));
 			// Loop over devices
 			for (i = 0; i < info.num_devices; i++) {
-				fprintf(stderr, "\t%s", convert_device_id(info.devices[i]));
+				if (strcmp(convert_device_id(info.devices[i]), "Unknown") == 0) {
+					fprintf(stderr, "\tUnknown (0x%X)", info.devices[i]);
+				} else {
+					fprintf(stderr, "\t%s", convert_device_id(info.devices[i]));
+				}
 				if (i != info.num_devices - 1) {
 					fprintf(stderr, "\n");
 				}
