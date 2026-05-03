@@ -5,3 +5,5 @@
 KindleTool.xcodeproj/project.xcworkspace
 KindleTool.xcodeproj/xcuserdata
 
+# Nix Build Output
+result
