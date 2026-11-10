@@ -556,6 +556,24 @@ const char*
 			return "Kindle ColorSoft (2024) (Unknown Variant 455)";
 		case KindleColorSoftUnknown_4EP:
 			return "Kindle ColorSoft (2024) (Unknown Variant 4EP)";
+		case KindleColorSoft2Unknown_5R6:
+			return "Kindle ColorSoft 2 (Unknown Variant 5R6)";
+		case KindleColorSoft2Unknown_5R7:
+			return "Kindle ColorSoft 2 (Unknown Variant 5R7)";
+		case KindleColorSoft2Unknown_5R8:
+			return "Kindle ColorSoft 2 (Unknown Variant 5R8)";
+		case KindleColorSoft2Unknown_5R9:
+			return "Kindle ColorSoft 2 (Unknown Variant 5R9)";
+		case KindleColorSoft2Unknown_5RA:
+			return "Kindle ColorSoft 2 (Unknown Variant 5RA)";
+		case KindleColorSoft2Unknown_5RB:
+			return "Kindle ColorSoft 2 (Unknown Variant 5RB)";
+		case KindleColorSoft2Unknown_65R:
+			return "Kindle ColorSoft 2 (Unknown Variant 65R)";
+		case KindleColorSoft2Unknown_65S:
+			return "Kindle ColorSoft 2 (Unknown Variant 65S)";
+		case KindleColorSoft2Unknown_65T:
+			return "Kindle ColorSoft 2 (Unknown Variant 65T)";
 		case ValidKindleUnknown_53C:
 			return "Unknown Kindle (53C)";
 		case ValidKindleUnknown_KVR:
@@ -652,6 +670,8 @@ const char*
 			return "Platpo8";
 		case Amaro5:
 			return "Amaro5";
+		case Platjp5:
+			return "Platjp5";
 		default:
 			return "Unknown";
 	}
@@ -838,10 +858,11 @@ static int
 	    "      -d, --device paperwhite6      Includes all known Kindle PaperWhite 6 variants\n"
 	    "      -d, --device scribe2          Includes all known Kindle Scribe 2 variants\n"
 	    "      -d, --device colorsoft        Includes all known Kindle ColorSoft variants\n"
+	    "      -d, --device colorsoft2       Includes all known Kindle ColorSoft 2 variants\n"
 	    "      -d, --device scribe3          Includes all known Kindle Scribe 3 variants\n"
 	    "      -d, --device scribecolorsoft  Includes all known Kindle Scribe ColorSoft variants\n"
 	    "      -d, --device basic6           Includes all known Kindle Basic 6 variants\n"
-	    "      -d, --device kindle5          Alias for touch + paperwhite + paperwhite2 + basic + voyage + paperwhite3 + oasis + basic2 + oasis2 + paperwhite4 + basic3 + oasis3 + paperwhite5 + basic4 + scribe + basic5 + paperwhite6 + scribe2 + colorsoft + scribe3 + scribecolorsoft + basic6\n"
+	    "      -d, --device kindle5          Alias for touch + paperwhite + paperwhite2 + basic + voyage + paperwhite3 + oasis + basic2 + oasis2 + paperwhite4 + basic3 + oasis3 + paperwhite5 + basic4 + scribe + basic5 + paperwhite6 + scribe2 + colorsoft + colorsoft2 + scribe3 + scribecolorsoft + basic6\n"
 	    "      -d, --device none             No specific device (Recovery V2 & Recovery FB02 with header rev 2 only, default).\n"
 	    "      -d, --device auto             The current device (Obviously, has to be run from a Kindle).\n"
 	    "      \n"
@@ -867,6 +888,7 @@ static int
 	    "      -p, --platform platcs8        Platcs8 (Scribe ColorSoft platform).\n"
 	    "      -p, --platform platpo8        Platpo8 (Basic 6 platform).\n"
 	    "      -p, --platform amaro5         Amaro5 (PaperWhite 7 platform).\n"
+	    "      -p, --platform platjp5         Platjp5 (ColorSoft 2 platform).\n"
 	    "      \n"
 	    "    Boards:\n"
 	    "      Recovery V2 & Recovery FB02 with header rev 2 updates only. Use a single board per package.\n"

@@ -224,6 +224,15 @@ model_tuples = [
 	('KindleColorSoftUnknown_456',				0x10A6,	'A2CU9ZQDNZFID4'),	# 456?
 	('KindleColorSoftUnknown_455',				0x10A5,	'A2CU9ZQDNZFID4'),	# 455?
 	('KindleColorSoftUnknown_4EP',				0x11D7,	'A2CU9ZQDNZFID4'),	# 4EP?
+	('KindleColorSoft2Unknown_5R6',				0x1726,	'A3U7I26D5HQ3UG'),	# 5R6?
+	('KindleColorSoft2Unknown_5R7',				0x1727,	'A3U7I26D5HQ3UG'),	# 5R7?
+	('KindleColorSoft2Unknown_5R8',				0x1728,	'A3U7I26D5HQ3UG'),	# 5R8?
+	('KindleColorSoft2Unknown_5R9',				0x1729,	'A2VVFS6ISE528G'),	# 5R9?
+	('KindleColorSoft2Unknown_5RA',				0x172A,	'A2VVFS6ISE528G'),	# 5RA?
+	('KindleColorSoft2Unknown_5RB',				0x172B,	'A2VVFS6ISE528G'),	# 5RB?
+	('KindleColorSoft2Unknown_65R',				0x18B9,	'A2VVFS6ISE528G'),	# 65R?
+	('KindleColorSoft2Unknown_65S',				0x18BA,	'A3U7I26D5HQ3UG'),	# 65S?
+	('KindleColorSoft2Unknown_65T',				0x18BB,	'A2VVFS6ISE528G'),	# 65T?
 	('ValidKindleUnknown_53C',					0x1463,	'A1956ZWD74DEPW'),	# 53C?
 	('ValidKindleUnknown_KVR',					0x4FB9,	'A2C8F0TJH71TA1'),	# KVR?
 	('KindleScribe3Unknown_4PG',				0x12F0,	'A2PZKJK345L1G8'),	# 4PG?

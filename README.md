@@ -87,11 +87,12 @@
 		-d, --device paperwhite6      Includes all known Kindle PaperWhite 6 variants
 		-d, --device scribe2          Includes all known Kindle Scribe 2 variants
 		-d, --device colorsoft        Includes all known Kindle ColorSoft variants
+		-d, --device colorsoft2       Includes all known Kindle ColorSoft 2 variants
 		-d, --device scribe3          Includes all known Kindle Scribe 3 variants
 		-d, --device scribecolorsoft  Includes all known Kindle Scribe ColorSoft variants
 		-d, --device basic6           Includes all known Kindle Basic 6 variants
 		-d, --device paperwhite7      Includes all known Kindle PaperWhite 7 variants
-		-d, --device kindle5          Alias for touch + paperwhite + paperwhite2 + basic + voyage + paperwhite3 + oasis + basic2 + oasis2 + paperwhite4 + basic3 + oasis3 + paperwhite5 + basic4 + scribe + basic5 + paperwhite6 + scribe2 + colorsoft + scribe3 + scribecolorsoft + basic6 + paperwhite7
+		-d, --device kindle5          Alias for touch + paperwhite + paperwhite2 + basic + voyage + paperwhite3 + oasis + basic2 + oasis2 + paperwhite4 + basic3 + oasis3 + paperwhite5 + basic4 + scribe + basic5 + paperwhite6 + scribe2 + colorsoft + colorsoft2 + scribe3 + scribecolorsoft + basic6 + paperwhite7
 		-d, --device none             No specific device (Recovery V2 & Recovery FB02 with header rev 2 only, default).
 		-d, --device auto             The current device (Obviously, has to be run from a Kindle).
 
@@ -117,6 +118,7 @@
 		-p, --platform platcs8        Platcs8 (Scribe ColorSoft platform).
 		-p, --platform platpo8        Platpo8 (Basic 6 platform).
 		-p, --platform amaro5         Amaro5 (PaperWhite 7 platform).
+		-p, --platform platjp5         Platjp5 (ColorSoft 2 platform).
 	Boards:
 		Recovery V2 & Recovery FB02 with header rev 2 updates only. Use a single board per package.
 
