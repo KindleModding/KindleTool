@@ -393,6 +393,16 @@ typedef enum
 	KindleColorSoftUnknown_456        = 0x10A6,    // 456?
 	KindleColorSoftUnknown_455        = 0x10A5,    // 455?
 	KindleColorSoftUnknown_4EP        = 0x11D7,    // 4EP?
+	// Kindle ColorSoft 2, 2026
+	KindleColorSoft2Unknown_5R6       = 0x1726,    // 5R6?
+	KindleColorSoft2Unknown_5R7       = 0x1727,    // 5R7?
+	KindleColorSoft2Unknown_5R8       = 0x1728,    // 5R8?
+	KindleColorSoft2Unknown_5R9       = 0x1729,    // 5R9?
+	KindleColorSoft2Unknown_5RA       = 0x172A,    // 5RA?
+	KindleColorSoft2Unknown_5RB       = 0x172B,    // 5RB?
+	KindleColorSoft2Unknown_65R       = 0x18B9,    // 65R?
+	KindleColorSoft2Unknown_65S       = 0x18BA,    // 65S?
+	KindleColorSoft2Unknown_65T       = 0x18BB,    // 65T?
 	// Mystery Kindles from 5.19.1's deviceTypes.conf
 	ValidKindleUnknown_53C            = 0x146C,    // 53C?
 	ValidKindleUnknown_KVR            = 0x4FB9,    // KVR?
@@ -455,6 +465,7 @@ typedef enum
 	Platcs8          = 0x10,    // Kindle Scribe ColorSoft
 	Platpo8          = 0x11,    // Kindle Basic 6
 	Amaro5           = 0x12,    // Kindle PW7
+	Platjp5          = 0x13,    // Kindle ColorSoft 2
 } Platform;
 
 typedef enum
@@ -529,6 +540,7 @@ typedef enum
 // Sangria                    // Kindle PW6 (First Bellatrix4 board w/ the CS) - Kindle Paperwhite (12th Generation) - 2024 Release
 // Pisco                      // Kindle KS2 - Kindle Scribe - 2024 Release
 // SeaBreeze                  // Kindle CS - Kindle ColorSoft
+// Julep                      // Kindle CS2 - Kindle ColorSoft 2 - 2026 Release
 // Paloma                     // Kindle KS3 - (First Platpa6 board) - Kindle Scribe (3rd Generation)
 // Calvados                   // Kindle KSC - (First Platcs8 board) - Kindle Scribe Colorsoft (1st Generation)
 // Prosecco                   // Kindle Basic 6 (KT7) (First Platpo8 board) - Kindle (2026 Release)
